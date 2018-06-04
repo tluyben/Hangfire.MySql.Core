@@ -1,18 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <Description>Hangfire's mysql storage.</Description>
-    <PackageId>Hangfire.MySql.Core</PackageId>
+    <Description>Forked from https://github.com/stulzq/Hangfire.MySql.Core to fix #7</Description>
+    <PackageId>Hangfire.MySql.Core3</PackageId>
     <Product>Hangfire.MySql.Core</Product>
-    <Company>stulzq</Company>
-    <Authors>stulzq</Authors>
+    <Company>giangnn</Company>
+    <Authors>giangnn</Authors>
     <Owners>Arnoldas Gudas</Owners>
-    <PackageLicenseUrl>https://github.com/stulzq/Hangfire.MySql.Core/blob/master/License.md</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/stulzq/Hangfire.MySql.Core</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/giangnn/Hangfire.MySql.Core/blob/master/License.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/giangnn/Hangfire.MySql.Core</PackageProjectUrl>
     <Copyright>Copyright 2017-2018</Copyright>
     <PackageTags>Hangfire MySql Hangfire.MySql Hangfire.MySql.Core</PackageTags>
-    <Version>2.1.6-preview</Version>
-    <AssemblyVersion>2.1.6.0</AssemblyVersion>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyName>Hangfire.MySql.Core</AssemblyName>
     <RootNamespace>Hangfire.MySql.Core</RootNamespace>
     <PackageReleaseNotes>update mysqlconnector</PackageReleaseNotes>
