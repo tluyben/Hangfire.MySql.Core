@@ -155,8 +155,8 @@ namespace Hangfire.MySql.Core
             AcquireSetLock();
             QueueCommand(x => x.Execute(
                 "INSERT INTO `Set` (`Key`, `Value`, `Score`) " +
-                "VALUES (@Key, @Value, @Score) " +
-                "ON DUPLICATE KEY UPDATE `Score` = @Score",
+                "VALUES (@key, @value, @score) " +
+                "ON DUPLICATE KEY UPDATE `Score` = @score",
                 new { key, value, score }));
         }
 
